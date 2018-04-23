@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0811EE21411E05E1108D70EFB8B411F1 /* Pods-HuaTHome_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3842E1B880C54D2ACB85AEB7F480CE10 /* Pods-HuaTHome_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A81C78638E4D0262178210822D94BB4 /* HuaTHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68024C9BB1E1AAC82DBA54EA0CEFD44F /* HuaTHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		454592A51FE502A573CFAEB25EAF18EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		642D067F2BE39816565DAF826E794803 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = ED70DFFAF6B1AFC7FF3060763F325854 /* ReplaceMe.m */; };
+		66CC68647203969E424F0357B338F937 /* Pods-HuaTHome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2B6B5C5AC1B8722A8164663FBD44C /* Pods-HuaTHome_Tests-dummy.m */; };
+		A02F1649208DD44A009834AB /* HuaTHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A02F1647208DD44A009834AB /* HuaTHomeViewController.h */; };
+		A02F164A208DD44A009834AB /* HuaTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02F1648208DD44A009834AB /* HuaTHomeViewController.m */; };
+		A1CA4CD7142FCEBC2474C07F01B6FCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AFC5698F486887ED248152DB1C05200F /* Pods-HuaTHome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66AA0E073A4AA7B517DE5AB7EE3BE335 /* Pods-HuaTHome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7B81EB53F971EB9F18463DCD92B04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA51F0BFC20EA14EBD3AB482EFDE5111 /* HuaTHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0282A4053FD62E6D3E96918E7CC2F9D /* HuaTHome-dummy.m */; };
+		EBCAC76D5209B67985E3E1A4E6BEA126 /* Pods-HuaTHome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EDAC80A7D64239A3EBCA4A2CFD9650 /* Pods-HuaTHome_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D47154D2CF5593D2CAC650188F7B3954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8640B12DE89502511BD3ED69F95ED8C6;
+			remoteInfo = "Pods-HuaTHome_Example";
+		};
+		DBB9A2571D041E04416A5D1AA256D140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66970E81054B23B2BB6655843188D73;
+			remoteInfo = HuaTHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08711C23DF4ACADDF2075F1106761F9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A25DB4CCDA47A19596AB224379CCCB6 /* Pods-HuaTHome_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTHome_Example-frameworks.sh"; sourceTree = "<group>"; };
+		103C3E98CC296440C1FE59D85BE84D0E /* Pods-HuaTHome_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuaTHome_Example.modulemap"; sourceTree = "<group>"; };
+		10B55CFF8107D0D2FD83BFA794D33522 /* HuaTHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTHome-prefix.pch"; sourceTree = "<group>"; };
+		128B855B2D1269902F9032ADD555A304 /* Pods_HuaTHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTHome_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D2480E7E04AD002CCBFFE0E69DC1C7 /* HuaTHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HuaTHome.xcconfig; sourceTree = "<group>"; };
+		2D8E2AA4270BD1327683069C6E610ECC /* Pods-HuaTHome_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTHome_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2F005E66F2D836F911FF47E2671D0DC1 /* Pods-HuaTHome_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTHome_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		319C5B6568B7C5C43F186B1370507554 /* HuaTHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HuaTHome.modulemap; sourceTree = "<group>"; };
+		327BACF61DAA24B5969F9005008628B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3312D67647B455667608EE131B300D53 /* Pods-HuaTHome_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTHome_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3842E1B880C54D2ACB85AEB7F480CE10 /* Pods-HuaTHome_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuaTHome_Example-umbrella.h"; sourceTree = "<group>"; };
+		46EDAC80A7D64239A3EBCA4A2CFD9650 /* Pods-HuaTHome_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTHome_Example-dummy.m"; sourceTree = "<group>"; };
+		4C314421D03A62725328FA6E755175B2 /* HuaTHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HuaTHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F7C85A7D2BCE92EAC027723BDAE7C3D /* Pods-HuaTHome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTHome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		626D21E557AD75E9B965ED598886D852 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66AA0E073A4AA7B517DE5AB7EE3BE335 /* Pods-HuaTHome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuaTHome_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68024C9BB1E1AAC82DBA54EA0CEFD44F /* HuaTHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HuaTHome-umbrella.h"; sourceTree = "<group>"; };
+		6B2C6C3085B1FCF16467B52C6AEACC46 /* Pods-HuaTHome_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTHome_Tests-resources.sh"; sourceTree = "<group>"; };
+		708705E34428E64B80599E68904E054A /* Pods-HuaTHome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuaTHome_Tests.modulemap"; sourceTree = "<group>"; };
+		73B3553D4EBBC8DC41AB881F22B591BE /* Pods-HuaTHome_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuaTHome_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D078A2BA1BDD9950D4706E5FAA363AE /* Pods-HuaTHome_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuaTHome_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C1DE4C691BBCEE4036DE59DB97BF9C /* HuaTHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuaTHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC5E819E5409393C0176FD61E66DCF2 /* Pods-HuaTHome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTHome_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A02F1647208DD44A009834AB /* HuaTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaTHomeViewController.h; sourceTree = "<group>"; };
+		A02F1648208DD44A009834AB /* HuaTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaTHomeViewController.m; sourceTree = "<group>"; };
+		A3B561EB84FC78A8B2D0277456B81EB5 /* Pods-HuaTHome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTHome_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B0282A4053FD62E6D3E96918E7CC2F9D /* HuaTHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HuaTHome-dummy.m"; sourceTree = "<group>"; };
+		B86253D9A13E3A57C09D2B3AF20DEF11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B8CD2477E839430D8757D0DC2757E6CA /* Pods-HuaTHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuaTHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA174AF9E93B0C7713C249340FE53D72 /* Pods-HuaTHome_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuaTHome_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD7B50D9401213FF04BCBEC51B38F916 /* Pods_HuaTHome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTHome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D2B6B5C5AC1B8722A8164663FBD44C /* Pods-HuaTHome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuaTHome_Tests-dummy.m"; sourceTree = "<group>"; };
+		D0BB016C2C7642B716865BF612F670A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED70DFFAF6B1AFC7FF3060763F325854 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HuaTHome/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B51E1D0D517587CDFBCB4E3D9487E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7B81EB53F971EB9F18463DCD92B04F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97834C081860B51953F5D020C06C861A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA4CD7142FCEBC2474C07F01B6FCCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF65A1F31EAC8308328595ECE59A6D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454592A51FE502A573CFAEB25EAF18EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6E471DDD68CD3EB62F8A820EAE4AD9 /* Pods-HuaTHome_Example */ = {
+			isa = PBXGroup;
+			children = (
+				08711C23DF4ACADDF2075F1106761F9B /* Info.plist */,
+				103C3E98CC296440C1FE59D85BE84D0E /* Pods-HuaTHome_Example.modulemap */,
+				3312D67647B455667608EE131B300D53 /* Pods-HuaTHome_Example-acknowledgements.markdown */,
+				73B3553D4EBBC8DC41AB881F22B591BE /* Pods-HuaTHome_Example-acknowledgements.plist */,
+				46EDAC80A7D64239A3EBCA4A2CFD9650 /* Pods-HuaTHome_Example-dummy.m */,
+				0A25DB4CCDA47A19596AB224379CCCB6 /* Pods-HuaTHome_Example-frameworks.sh */,
+				8D078A2BA1BDD9950D4706E5FAA363AE /* Pods-HuaTHome_Example-resources.sh */,
+				3842E1B880C54D2ACB85AEB7F480CE10 /* Pods-HuaTHome_Example-umbrella.h */,
+				A3B561EB84FC78A8B2D0277456B81EB5 /* Pods-HuaTHome_Example.debug.xcconfig */,
+				9CC5E819E5409393C0176FD61E66DCF2 /* Pods-HuaTHome_Example.release.xcconfig */,
+			);
+			name = "Pods-HuaTHome_Example";
+			path = "Target Support Files/Pods-HuaTHome_Example";
+			sourceTree = "<group>";
+		};
+		37C8E0441E36FDA5BF14D251BE152BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C1DE4C691BBCEE4036DE59DB97BF9C /* HuaTHome.framework */,
+				BD7B50D9401213FF04BCBEC51B38F916 /* Pods_HuaTHome_Example.framework */,
+				128B855B2D1269902F9032ADD555A304 /* Pods_HuaTHome_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2301C69D848FA82402D2DC21180233 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				319C5B6568B7C5C43F186B1370507554 /* HuaTHome.modulemap */,
+				26D2480E7E04AD002CCBFFE0E69DC1C7 /* HuaTHome.xcconfig */,
+				B0282A4053FD62E6D3E96918E7CC2F9D /* HuaTHome-dummy.m */,
+				10B55CFF8107D0D2FD83BFA794D33522 /* HuaTHome-prefix.pch */,
+				68024C9BB1E1AAC82DBA54EA0CEFD44F /* HuaTHome-umbrella.h */,
+				327BACF61DAA24B5969F9005008628B9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HuaTHome";
+			sourceTree = "<group>";
+		};
+		5F5DEFEBA7904EAD5570E34AE43621F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B6E471DDD68CD3EB62F8A820EAE4AD9 /* Pods-HuaTHome_Example */,
+				8ABD5651FF58C7FD4393BD711A5CD588 /* Pods-HuaTHome_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6733B08B0DF78B0DE6A65CB7BC3CE3F0 /* HuaTHome */ = {
+			isa = PBXGroup;
+			children = (
+				ED70DFFAF6B1AFC7FF3060763F325854 /* ReplaceMe.m */,
+				A02F1646208DD416009834AB /* Controllers */,
+				BE556E4A6A7F31CCAEE047DE9DCB1026 /* Pod */,
+				3F2301C69D848FA82402D2DC21180233 /* Support Files */,
+			);
+			name = HuaTHome;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BF51033E3E48D59E10A66E0454D0F4D1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				37C8E0441E36FDA5BF14D251BE152BA1 /* Products */,
+				5F5DEFEBA7904EAD5570E34AE43621F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABD5651FF58C7FD4393BD711A5CD588 /* Pods-HuaTHome_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				626D21E557AD75E9B965ED598886D852 /* Info.plist */,
+				708705E34428E64B80599E68904E054A /* Pods-HuaTHome_Tests.modulemap */,
+				BA174AF9E93B0C7713C249340FE53D72 /* Pods-HuaTHome_Tests-acknowledgements.markdown */,
+				2F005E66F2D836F911FF47E2671D0DC1 /* Pods-HuaTHome_Tests-acknowledgements.plist */,
+				C3D2B6B5C5AC1B8722A8164663FBD44C /* Pods-HuaTHome_Tests-dummy.m */,
+				2D8E2AA4270BD1327683069C6E610ECC /* Pods-HuaTHome_Tests-frameworks.sh */,
+				6B2C6C3085B1FCF16467B52C6AEACC46 /* Pods-HuaTHome_Tests-resources.sh */,
+				66AA0E073A4AA7B517DE5AB7EE3BE335 /* Pods-HuaTHome_Tests-umbrella.h */,
+				5F7C85A7D2BCE92EAC027723BDAE7C3D /* Pods-HuaTHome_Tests.debug.xcconfig */,
+				B8CD2477E839430D8757D0DC2757E6CA /* Pods-HuaTHome_Tests.release.xcconfig */,
+			);
+			name = "Pods-HuaTHome_Tests";
+			path = "Target Support Files/Pods-HuaTHome_Tests";
+			sourceTree = "<group>";
+		};
+		A02F1646208DD416009834AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A02F1647208DD44A009834AB /* HuaTHomeViewController.h */,
+				A02F1648208DD44A009834AB /* HuaTHomeViewController.m */,
+			);
+			name = Controllers;
+			path = HuaTHome/Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE556E4A6A7F31CCAEE047DE9DCB1026 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C314421D03A62725328FA6E755175B2 /* HuaTHome.podspec */,
+				B86253D9A13E3A57C09D2B3AF20DEF11 /* LICENSE */,
+				D0BB016C2C7642B716865BF612F670A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BF51033E3E48D59E10A66E0454D0F4D1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6733B08B0DF78B0DE6A65CB7BC3CE3F0 /* HuaTHome */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3687731C6DF5E2F048D8B5CCCA37661C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02F1649208DD44A009834AB /* HuaTHomeViewController.h in Headers */,
+				0A81C78638E4D0262178210822D94BB4 /* HuaTHome-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8BD03D3B708B7BB2E29812E2E3AA31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC5698F486887ED248152DB1C05200F /* Pods-HuaTHome_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CE82CD67DE88D26E7DB49F934FC6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0811EE21411E05E1108D70EFB8B411F1 /* Pods-HuaTHome_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8640B12DE89502511BD3ED69F95ED8C6 /* Pods-HuaTHome_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CED841CD108F6E602EC723CDCC9447 /* Build configuration list for PBXNativeTarget "Pods-HuaTHome_Example" */;
+			buildPhases = (
+				B760B03272276FCB685B9D73EAA28F47 /* Sources */,
+				97834C081860B51953F5D020C06C861A /* Frameworks */,
+				427CE82CD67DE88D26E7DB49F934FC6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F983C02FEA3D0F5E75BE11E6C15A84 /* PBXTargetDependency */,
+			);
+			name = "Pods-HuaTHome_Example";
+			productName = "Pods-HuaTHome_Example";
+			productReference = BD7B50D9401213FF04BCBEC51B38F916 /* Pods_HuaTHome_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B66970E81054B23B2BB6655843188D73 /* HuaTHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530824D5FD915488C1A2793FF6B8848 /* Build configuration list for PBXNativeTarget "HuaTHome" */;
+			buildPhases = (
+				B60435208CFD46A1A10A0945CD5AA421 /* Sources */,
+				EF65A1F31EAC8308328595ECE59A6D3B /* Frameworks */,
+				3687731C6DF5E2F048D8B5CCCA37661C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaTHome;
+			productName = HuaTHome;
+			productReference = 96C1DE4C691BBCEE4036DE59DB97BF9C /* HuaTHome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9C38C9AE1879EF96E7C19A2151EB9C3 /* Pods-HuaTHome_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1A25DE2E9D0FAFAF4AE827E4804FB4 /* Build configuration list for PBXNativeTarget "Pods-HuaTHome_Tests" */;
+			buildPhases = (
+				821AC1920B0B0AF3C3154D646FE97BF2 /* Sources */,
+				26B51E1D0D517587CDFBCB4E3D9487E8 /* Frameworks */,
+				3B8BD03D3B708B7BB2E29812E2E3AA31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DC31FEB12206150B9C9D4BA5860AF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HuaTHome_Tests";
+			productName = "Pods-HuaTHome_Tests";
+			productReference = 128B855B2D1269902F9032ADD555A304 /* Pods_HuaTHome_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 37C8E0441E36FDA5BF14D251BE152BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66970E81054B23B2BB6655843188D73 /* HuaTHome */,
+				8640B12DE89502511BD3ED69F95ED8C6 /* Pods-HuaTHome_Example */,
+				B9C38C9AE1879EF96E7C19A2151EB9C3 /* Pods-HuaTHome_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821AC1920B0B0AF3C3154D646FE97BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CC68647203969E424F0357B338F937 /* Pods-HuaTHome_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60435208CFD46A1A10A0945CD5AA421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02F164A208DD44A009834AB /* HuaTHomeViewController.m in Sources */,
+				EA51F0BFC20EA14EBD3AB482EFDE5111 /* HuaTHome-dummy.m in Sources */,
+				642D067F2BE39816565DAF826E794803 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B760B03272276FCB685B9D73EAA28F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCAC76D5209B67985E3E1A4E6BEA126 /* Pods-HuaTHome_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31DC31FEB12206150B9C9D4BA5860AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HuaTHome_Example";
+			target = 8640B12DE89502511BD3ED69F95ED8C6 /* Pods-HuaTHome_Example */;
+			targetProxy = D47154D2CF5593D2CAC650188F7B3954 /* PBXContainerItemProxy */;
+		};
+		78F983C02FEA3D0F5E75BE11E6C15A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HuaTHome;
+			target = B66970E81054B23B2BB6655843188D73 /* HuaTHome */;
+			targetProxy = DBB9A2571D041E04416A5D1AA256D140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FFA5383C3CDB8761DD18C2AC203CAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D2480E7E04AD002CCBFFE0E69DC1C7 /* HuaTHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaTHome/HuaTHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HuaTHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HuaTHome/HuaTHome.modulemap";
+				PRODUCT_MODULE_NAME = HuaTHome;
+				PRODUCT_NAME = HuaTHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3589135D2C93053BF370AAF40E4A1981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CD2477E839430D8757D0DC2757E6CA /* Pods-HuaTHome_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTHome_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTHome_Tests/Pods-HuaTHome_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A15BE23FA8EC4976AE2E960797BA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7C85A7D2BCE92EAC027723BDAE7C3D /* Pods-HuaTHome_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTHome_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTHome_Tests/Pods-HuaTHome_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A1763F26B369A0397B9AC13B5D1AF2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B561EB84FC78A8B2D0277456B81EB5 /* Pods-HuaTHome_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTHome_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTHome_Example/Pods-HuaTHome_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACB7B86FC970D5519D5B8DCDE238FCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC5E819E5409393C0176FD61E66DCF2 /* Pods-HuaTHome_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuaTHome_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuaTHome_Example/Pods-HuaTHome_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D986167735188E887E38C096593309C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D2480E7E04AD002CCBFFE0E69DC1C7 /* HuaTHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HuaTHome/HuaTHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HuaTHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HuaTHome/HuaTHome.modulemap";
+				PRODUCT_MODULE_NAME = HuaTHome;
+				PRODUCT_NAME = HuaTHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CED841CD108F6E602EC723CDCC9447 /* Build configuration list for PBXNativeTarget "Pods-HuaTHome_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1763F26B369A0397B9AC13B5D1AF2C7 /* Debug */,
+				ACB7B86FC970D5519D5B8DCDE238FCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530824D5FD915488C1A2793FF6B8848 /* Build configuration list for PBXNativeTarget "HuaTHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFA5383C3CDB8761DD18C2AC203CAB9 /* Debug */,
+				D986167735188E887E38C096593309C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D1A25DE2E9D0FAFAF4AE827E4804FB4 /* Build configuration list for PBXNativeTarget "Pods-HuaTHome_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A15BE23FA8EC4976AE2E960797BA06C /* Debug */,
+				3589135D2C93053BF370AAF40E4A1981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

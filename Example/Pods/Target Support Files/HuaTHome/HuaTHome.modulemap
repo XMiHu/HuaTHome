@@ -1,0 +1,6 @@
+framework module HuaTHome {
+  umbrella header "HuaTHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

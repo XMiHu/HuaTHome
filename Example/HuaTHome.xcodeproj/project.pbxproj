@@ -23,7 +23,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A02F1644208DD342009834AB /* HYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02F1641208DD342009834AB /* HYBaseTabBarController.m */; };
+		A02F1645208DD342009834AB /* HYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02F1642208DD342009834AB /* HYBaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +61,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEE7F60E86C5B0E711F3BA16 /* HuaTHome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HuaTHome.podspec; path = ../HuaTHome.podspec; sourceTree = "<group>"; };
+		A02F1640208DD342009834AB /* HYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBaseNavigationController.h; sourceTree = "<group>"; };
+		A02F1641208DD342009834AB /* HYBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBaseTabBarController.m; sourceTree = "<group>"; };
+		A02F1642208DD342009834AB /* HYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBaseNavigationController.m; sourceTree = "<group>"; };
+		A02F1643208DD342009834AB /* HYBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBaseTabBarController.h; sourceTree = "<group>"; };
+		BEE7F60E86C5B0E711F3BA16 /* HuaTHome.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HuaTHome.podspec; path = ../HuaTHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C92DE81C6F88FA0025F5AE97 /* Pods-HuaTHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaTHome_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuaTHome_Tests/Pods-HuaTHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D58F49B512EA9F754F251DF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D58F49B512EA9F754F251DF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9E29815D1D94DAB1E241C48 /* Pods_HuaTHome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaTHome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFD7C3BF57FB23D796D295F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EFD7C3BF57FB23D796D295F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC351B1E6F47A90AB0CF544F /* Pods-HuaTHome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaTHome_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuaTHome_Example/Pods-HuaTHome_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,9 +136,9 @@
 		6003F593195388D20070C39A /* Example for HuaTHome */ = {
 			isa = PBXGroup;
 			children = (
+				A02F163F208DD342009834AB /* Base */,
 				6003F59C195388D20070C39A /* MHAppDelegate.h */,
 				6003F59D195388D20070C39A /* MHAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MHViewController.h */,
 				6003F5A6195388D20070C39A /* MHViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -194,6 +198,17 @@
 				C92DE81C6F88FA0025F5AE97 /* Pods-HuaTHome_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A02F163F208DD342009834AB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A02F1640208DD342009834AB /* HYBaseNavigationController.h */,
+				A02F1641208DD342009834AB /* HYBaseTabBarController.m */,
+				A02F1642208DD342009834AB /* HYBaseNavigationController.m */,
+				A02F1643208DD342009834AB /* HYBaseTabBarController.h */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +291,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -355,9 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02F1645208DD342009834AB /* HYBaseNavigationController.m in Sources */,
 				6003F59E195388D20070C39A /* MHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A02F1644208DD342009834AB /* HYBaseTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HuaTHome/HuaTHome-Prefix.pch";
 				INFOPLIST_FILE = "HuaTHome/HuaTHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HuaTHome/HuaTHome-Prefix.pch";
 				INFOPLIST_FILE = "HuaTHome/HuaTHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

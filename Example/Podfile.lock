@@ -1,0 +1,16 @@
+PODS:
+  - HuaTHome (0.1.0)
+
+DEPENDENCIES:
+  - HuaTHome (from `../`)
+
+EXTERNAL SOURCES:
+  HuaTHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuaTHome: f227174099ea544c6c5ed8be3ebcfd0f103fbd1e
+
+PODFILE CHECKSUM: c4a3e7c9dd18176b322b0d1bb52c4c303121c276
+
+COCOAPODS: 1.5.0
